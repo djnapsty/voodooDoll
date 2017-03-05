@@ -3,8 +3,19 @@ guid: fc2c4b4d94e34467599d9c6c39ee1937
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: Gems
+    100002: Mace
+    100004: //RootNode
+    400000: Gems
+    400002: Mace
+    400004: //RootNode
+    2300000: Gems
+    2300002: Mace
+    3300000: Gems
+    3300002: Mace
     4300000: Gems
     4300002: Mace
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 3
