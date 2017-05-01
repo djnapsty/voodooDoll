@@ -16,11 +16,13 @@ on the people who piss you off!
  
 /* Project Software Documentation */
 
+
 Abreve:
 
 The Virtual Voodoo Doll is an interactive game-fied tool for stress relief. It presents itself has a ragdoll that can be customized within
 the provided templates. Once the right user-dependedent visual has been chosen, a set of tools can be used to interact with the doll. 
 The purpose of this document is to help guide you through the tiny world we've created within your browser.
+
 
 User Documentation
 
@@ -52,7 +54,17 @@ My Doll just crashed, it seems like it is frozen, what do I do?
 Well, sometimes the magic is just too strong, refresh your browser and the Virtual Voodoo Doll will be right up again.
 
 
+Project Charter
+
+We live in a social media driven world, and the generation that saw the internet be born and availabe to every home is now fully embeded in 
+the realities of a shared life.
+Voodoo Dolls were once the mystical scape goat for every ill feelling that could not be acted upon. With the contemporary worldy turmoil
+why not go back to them and turn them into something positive.
+Our goal is to game-fy your anger, believe us, you'll fell better after.
+
+
 Requirements:
+
 Our requirements documentation should guide the interested parties on the does and shall do's of our software project. It should provide
 a comprehensive agreement on what our team decided that it should be doing. Based on our teams technical limitations our requirements
 will be divided in two categories, mandatory requirements that w know we can technically achieve and the potentials that we shall challenge
@@ -70,6 +82,7 @@ B. Potentials
   1. Interchangable faces / Skins
   2. Full Animation
   3. Sound EFX
+  
   
   
 
