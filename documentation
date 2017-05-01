@@ -12,4 +12,43 @@ Do you want to get rid of the negitave energy in your life?
 Use the magik of the internet to channel it away by casting digital curses 
 on the people who piss you off!
 
+/* this is bea's version of the documentation Please accept what you agree with for the global documentation*/
+ 
+/* Project Software Documentation */
+
+Abreve:
+
+The Virtual Voodoo Doll is an interactive game-fied tool for stress relief. It presents itself has a ragdoll that can be customized within
+the provided templates. Once the right user-dependedent visual has been chosen, a set of tools can be used to interact with the doll. 
+The purpose of this document is to help guide you through the tiny world we've created within your browser.
+
+User Documentation
+
+What is the Virtual Voodoo Doll?
+The Virtual Voodoo Doll is a Doll that you can personalize to your taste and to let all your anger out on.
+
+How do I initiate my doll?
+By clicking on the central window you will be starting your doll. 
+
+
+Requirements:
+Our requirements documentation should guide the interested parties on the does and shall do's of our software project. It should provide
+a comprehensive agreement on what our team decided that it should be doing. Based on our teams technical limitations our requirements
+will be divided in two categories, mandatory requirements that w know we can technically achieve and the potentials that we shall challenge
+ourselves to accomplish.
+
+A. Mandatory
+
+  1. Display the graphics of the doll & tools
+  2. Allow the user to manipulate the tools
+  3. Allow the tools to have an effect on the doll graphics
+  4. Give the user appropriate feedback
+
+B. Potentials
+  
+  1. Interchangable faces / Skins
+  2. Full Animation
+  3. Sound EFX
+  
+  
 
