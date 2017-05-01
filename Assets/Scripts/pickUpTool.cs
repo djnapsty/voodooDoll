@@ -5,6 +5,10 @@ using System.Collections;
 
 public class pickUpTool : MonoBehaviour {
 
+	public GameObject leg;
+
+
+
 	// Update is called once per frame
 	void OnMouseDrag() 
 	{
@@ -14,4 +18,16 @@ public class pickUpTool : MonoBehaviour {
 
 		transform.position = objectPosition;
 	}
+
+	void OnCollisionEnter(Collision collision) 
+	{
+
+		if(collision.gameObject.tag == "TOOL")
+			leg.gameObject.transform.position += new Vector3(0, 0, -10);
+	}
 }
+
+
+
+
+
