@@ -8,7 +8,7 @@ public class reseter :MonoBehaviour , IPointerClickHandler
 	public void OnPointerClick(PointerEventData data)
 	{
 		// reload the scene
-		SceneManager.LoadScene(SceneManager.GetSceneAt(0).path);
+		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
 
