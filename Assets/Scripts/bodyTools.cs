@@ -6,7 +6,7 @@ public class bodyTools : MonoBehaviour
 
 	void onCollisionEnter(Collision collision)
 	{
-		if (collision.gameObject.tag == "body") 
+		if (collision.gameObject.tag == "TOOL") 
 		{
 			Destroy(collision.gameObject);
 		}
