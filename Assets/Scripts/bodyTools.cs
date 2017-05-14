@@ -4,11 +4,14 @@ using System.Collections;
 public class bodyTools : MonoBehaviour 
 {
 
-	void onCollisionEnter(Collision collision)
+
+
+
+	void onCollisionEnter(Collision a)
 	{
-		if (collision.gameObject.tag == "TOOL") 
+		if (a.gameObject.tag == "TOOL") 
 		{
-			Destroy(collision.gameObject);
+			Destroy(a.gameObject);
 		}
 	}
 			

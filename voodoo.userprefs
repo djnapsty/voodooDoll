@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Restart.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/bodyTools.cs">
     <Files>
-      <File FileName="Assets/Scripts/pickUpTool.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/bodyTools.cs" Line="5" Column="2" />
+      <File FileName="Assets/Scripts/pickUpTool.cs" Line="11" Column="2" />
       <File FileName="Assets/Scripts/scissors.cs" Line="6" Column="2" />
-      <File FileName="Assets/Scripts/Restart.cs" Line="9" Column="2" />
-      <File FileName="Assets/Scripts/buttondestroy.cs" Line="3" Column="1" />
+      <File FileName="Assets/Scripts/buttondestroy.cs" Line="15" Column="3" />
+      <File FileName="Assets/Scripts/reseter.cs" Line="11" Column="60" />
+      <File FileName="Assets/Scripts/headdestroy.cs" Line="8" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

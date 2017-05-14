@@ -2,14 +2,13 @@
 using System.Collections;
 
 
-
+[RequireComponent(typeof(AudioSource))]
 public class pickUpTool : MonoBehaviour {
 
 
 	public float yAxisY = 47.0f ;
 
 
-	// Update is called once per frame
 	void OnMouseDrag() 
 	{
 		
@@ -17,6 +16,8 @@ public class pickUpTool : MonoBehaviour {
 		Vector3 objectPosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
 		transform.position = objectPosition;
+		AudioSource audio = GetComponent<AudioSource>();
+		audio.Play();
 	}
 
 
