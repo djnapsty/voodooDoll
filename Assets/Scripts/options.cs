@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class options : MonoBehaviour, IPointerClickHandler 
 {
-	public Vector3 startingPosition = new Vector3(0f,0f,0f);
+	public Vector3 startingPosition = new Vector3(0f,0f,450f);
 	public Button optionsButton;
 	public void OnPointerClick(PointerEventData data)
 	{
