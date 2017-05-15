@@ -1,21 +1,23 @@
 Purposes:
--the developers should know what to build
+-the developers know what to build
 -let testers know what to test
 -let stakeholders know what product they are getting 
 
+version 1.0
 Basis is waterfall model
 -sequential (non-iterative) design process, used in software development processes, in which progress is seen as flowing steadily downwards (like a waterfall) through the phases of conception, initiation, analysis, design, construction, testing, production/implementation and maintenance.
 -on the basis of the waterfall model, the steps for implementation are:
     -geometric basis for the centered animation (doll)
     -appropriate physics for the doll and the tool interaction
-    -establishment of two menus
+    -establishment of active menus 
     -menu 1 will be comprised of the customization of the doll (textures, colors and pre-elected faces for the doll)
     -menu 2 will be comprised of the tools (weapons) that are used to interact with the doll (knife, hammer, needle, etc)
-   -menu 1 will splash over the left hand section of the screen
-   -menu 2 will be a footer menu where the weapons are displayed in predetermined boxes.
-   -selection of tools and textures will be based on mouse click and drag motions.
+    -menu 1 will splash over the right hand section of the screen
+    -menu 2 will be a footer menu where the weapons are displayed in predetermined boxes.
+    -selection of tools and textures will be based on mouse click and drag motions.
+    -an action button on the left hand footer for a reset function will allow for a doll replay.
    
-
+version 1.1
 On this project:
 intended capabilities, appearance, and interactions with users.
 describes all external user and programming interfaces that the product must support.
@@ -33,12 +35,14 @@ To bridge on the requirements previously submitted:
 
 -the weapons footer menu is presented in small boxes from where the user can lift the chosen item by a click and drag method with their peripheral or integrated mouse.
 
+-they present themselves layed in a mock surgery tray
+
 -dragging the chosen item from the menu box to the doll animation screen will produce an animation (based on a mouse positional tracker) as a response.
 
--we will tentatively associate a sound bite to be played as the voice of the doll animation when a tool to doll animation is detected.
+- a sound bite is to be played as the voice of the doll animation when a tool to doll animation is detected.
 
 -a limit to the number of hits (number of times the weapons should interact with the doll should be predetermined) will end the sequence for the animation session and suggest continuity by loading a novel animation and reinitiate a session.
 
 -the doll application can be shared via email or current social media networks via small link.
 
--self-promotion for the application will be via reddit and twitter bots.
+
