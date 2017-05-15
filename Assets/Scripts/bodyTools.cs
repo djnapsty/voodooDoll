@@ -7,7 +7,7 @@ public class bodyTools : MonoBehaviour
 
 
 
-	void onCollisionEnter(Collision a)
+	void OnMouseOver(Collision a)
 	{
 		if (a.gameObject.tag == "TOOL") 
 		{

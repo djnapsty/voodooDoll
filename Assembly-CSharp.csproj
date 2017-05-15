@@ -48,6 +48,8 @@
      <Compile Include="Assets\Scripts\bodyTools.cs" />
      <Compile Include="Assets\Scripts\buttondestroy.cs" />
      <Compile Include="Assets\Scripts\headdestroy.cs" />
+     <Compile Include="Assets\Scripts\options.cs" />
+     <Compile Include="Assets\Scripts\optionsbutton.cs" />
      <Compile Include="Assets\Scripts\pickUpTool.cs" />
      <Compile Include="Assets\Scripts\reseter.cs" />
      <Compile Include="Assets\Scripts\scissors.cs" />

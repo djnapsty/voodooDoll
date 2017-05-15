@@ -5,8 +5,14 @@ using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 public class pickUpTool : MonoBehaviour {
 
-
+	public bool soundplayed;
 	public float yAxisY = 47.0f ;
+
+	void Start()
+	{
+		soundplayed = false;
+
+	}
 
 
 	void OnMouseDrag() 
@@ -16,8 +22,23 @@ public class pickUpTool : MonoBehaviour {
 		Vector3 objectPosition = Camera.main.ScreenToWorldPoint(mousePosition);
 
 		transform.position = objectPosition;
+
+
 		AudioSource audio = GetComponent<AudioSource>();
-		audio.Play();
+
+		if (!soundplayed) 
+		{
+			audio.Play ();
+
+			soundplayed = true;
+		}
+	}
+
+	void OnMouseUp()
+	{
+		soundplayed = false;
+	
+	
 	}
 
 
